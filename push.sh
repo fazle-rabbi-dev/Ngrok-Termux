@@ -18,7 +18,7 @@ read -p "Type Commit Message:" msg
 echo -e "${cyan}[*] Commiting..."
 sleep 1s
 git commit -m "${msg}"
-echo -e "${cyan}[*] Pushing to Github..."
+echo -e "${green}[*] Pushing to Github..."
 git push
 echo -r "${yellow}✅ Done."
 echo -e $white
